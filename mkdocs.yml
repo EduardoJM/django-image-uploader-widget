@@ -1,7 +1,7 @@
 site_name: image-uploader-widget
-site_url: https://inventare.github.io/django-image-uploader-widget
-repo_url: https://github.com/inventare/django-image-uploader-widget
-repo_name: inventare/django-image-uploader-widget
+site_url: https://software.oliveiraedu.com.br/django-image-uploader-widget
+repo_url: https://github.com/EduardoJM/django-image-uploader-widget
+repo_name: EduardoJM/django-image-uploader-widget
 
 theme:
   name: material
@@ -42,17 +42,17 @@ plugins:
   - search
 
 extra:
-  homepage: https://inventare.github.io/django-image-uploader-widget/
+  homepage: https://software.oliveiraedu.com.br/django-image-uploader-widget/
 
 nav:
   - index.md
   - Widget:
-    - ... | flat | widget/*.md
-    - Specific Cases:
-      - ... | flat | widget/specific-cases/*.md
+      - ... | flat | widget/*.md
+      - Specific Cases:
+          - ... | flat | widget/specific-cases/*.md
   - ArrayField:
-    - ... | flat | array_field/*.md
+      - ... | flat | array_field/*.md
   - HTMX:
-    - ... | flat | htmx/*.md
+      - ... | flat | htmx/*.md
   - Inline Admin:
-    - ... | flat | inline_admin/*.md
+      - ... | flat | inline_admin/*.md

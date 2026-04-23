@@ -1,16 +1,13 @@
 [project]
 requires-python = ">= 3.8"
 name = 'django-image-uploader-widget'
-version = '1.1.0'
-description='Simple Image Uploader Widget for Django-Admin'
-dependencies = [
-  'django>=4.2',
-  'Pillow',
-]
-authors = [{name = "Eduardo Oliveira", email = "eduardo_y05@outlook.com"}]
-maintainers = [{name = "Eduardo Oliveira", email = "eduardo_y05@outlook.com"}]
+version = '1.1.1'
+description = 'Simple Image Uploader Widget for Django-Admin'
+dependencies = ['django>=4.2', 'Pillow']
+authors = [{ name = "Eduardo Oliveira", email = "eduardo_y05@outlook.com" }]
+maintainers = [{ name = "Eduardo Oliveira", email = "eduardo_y05@outlook.com" }]
 readme = "README.md"
-license = {file = "LICENSE"}
+license = { file = "LICENSE" }
 keywords = ["django", "admin", "widget", "image", "uploader"]
 classifiers = [
   'Development Status :: 5 - Production/Stable',
@@ -31,11 +28,16 @@ classifiers = [
 [project.optional-dependencies]
 dev = ["black", "isort", "pre-commit", "poethepoet"]
 test = ["playwright==1.48.0"]
-docs = ["mkdocs", "mkdocs-material", "mkdocs-glightbox", "mkdocs-awesome-pages-plugin"]
+docs = [
+  "mkdocs",
+  "mkdocs-material",
+  "mkdocs-glightbox",
+  "mkdocs-awesome-pages-plugin",
+]
 
 [project.urls]
-homepage = "https://github.com/inventare/django-image-uploader-widget"
-documentation = "https://inventare.github.io/django-image-uploader-widget/"
+homepage = "https://github.com/EduardoJM/django-image-uploader-widget"
+documentation = "https://software.oliveiraedu.com.br/django-image-uploader-widget/"
 
 [build-system]
 requires = ["setuptools", "build"]
