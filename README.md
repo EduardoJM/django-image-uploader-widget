@@ -42,13 +42,11 @@ Install from PyPI:
 pip install django-image-uploader-widget
 ```
 
->
 > On the `1.0.0` release of this package we droped the support for `Django 3.2`, `Django 4.0` and `Django 4.1`. We, currently, maintain the support for `Django 4.2` (LTS), `Django 5.0` and `Django 5.1`. Then, if you are using `Django 3.2`, `4.0` or `4.1`, installs `0.7.1` version:
 >
 > ```bash
 > pip install django-image-uploader-widget==0.7.1
 > ```
->
 
 Add `image_uploader_widget` to `INSTALLED_APPS`:
 
@@ -81,7 +79,7 @@ class YourModelAdmin(admin.ModelAdmin):
     }
 ```
 
-See the [documentation](https://inventare.github.io/django-image-uploader-widget/widget/resumed/) for more complex usage's.
+See the [documentation](https://software.oliveiraedu.com.br/django-image-uploader-widget/widget/resumed/) for more complex usage's.
 
 ### With ModelForm
 
@@ -100,7 +98,7 @@ class ExampleForm(forms.ModelForm):
         fields = '__all__'
 ```
 
-See the [documentation](https://inventare.github.io/django-image-uploader-widget/widget/resumed/) for more complex usage's.
+See the [documentation](https://software.oliveiraedu.com.br/django-image-uploader-widget/widget/resumed/) for more complex usage's.
 
 ### Custom Inline Admin
 
@@ -136,7 +134,7 @@ class ProductAdmin(admin.ModelAdmin):
     inlines = [ProductImageAdmin]
 ```
 
-See the [documentation](https://inventare.github.io/django-image-uploader-widget/inline_admin/tutorial/) for more complex usage's.
+See the [documentation](https://software.oliveiraedu.com.br/django-image-uploader-widget/inline_admin/tutorial/) for more complex usage's.
 
 ### Array Field
 
@@ -154,11 +152,11 @@ class TestWithArrayField(models.Model):
         verbose_name = "Test With Array Field"
 ```
 
-See the [documentation](https://inventare.github.io/django-image-uploader-widget/array_field/tutorial/) for more complex usage's.
+See the [documentation](https://software.oliveiraedu.com.br/django-image-uploader-widget/array_field/tutorial/) for more complex usage's.
 
 ## Documentation
 
-All the documentation of basic and advanced usage of this package is disponible at [documentation](https://inventare.github.io/django-image-uploader-widget/).
+All the documentation of basic and advanced usage of this package is disponible at [documentation](https://software.oliveiraedu.com.br/django-image-uploader-widget/).
 
 ## Preview
 
