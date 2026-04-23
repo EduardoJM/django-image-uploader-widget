@@ -79,7 +79,7 @@ class YourModelAdmin(admin.ModelAdmin):
     }
 ```
 
-See the [documentation](https://software.oliveiraedu.com.br/django-image-uploader-widget/widget/resumed/) for more complex usage's.
+See the [documentation](https://software.oliveiraedu.com.br/django-image-uploader-widget/widget/01-resumed/) for more complex usage's.
 
 ### With ModelForm
 
@@ -98,7 +98,7 @@ class ExampleForm(forms.ModelForm):
         fields = '__all__'
 ```
 
-See the [documentation](https://software.oliveiraedu.com.br/django-image-uploader-widget/widget/resumed/) for more complex usage's.
+See the [documentation](https://software.oliveiraedu.com.br/django-image-uploader-widget/widget/01-resumed/) for more complex usage's.
 
 ### Custom Inline Admin
 
@@ -134,7 +134,7 @@ class ProductAdmin(admin.ModelAdmin):
     inlines = [ProductImageAdmin]
 ```
 
-See the [documentation](https://software.oliveiraedu.com.br/django-image-uploader-widget/inline_admin/tutorial/) for more complex usage's.
+See the [documentation](https://software.oliveiraedu.com.br/django-image-uploader-widget/inline_admin/01-tutorial/) for more complex usage's.
 
 ### Array Field
 
@@ -152,7 +152,7 @@ class TestWithArrayField(models.Model):
         verbose_name = "Test With Array Field"
 ```
 
-See the [documentation](https://software.oliveiraedu.com.br/django-image-uploader-widget/array_field/tutorial/) for more complex usage's.
+See the [documentation](https://software.oliveiraedu.com.br/django-image-uploader-widget/array_field/01-tutorial/) for more complex usage's.
 
 ## Documentation
 
